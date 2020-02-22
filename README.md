@@ -11,5 +11,5 @@
 5. Now the app is running int he local host. In my case it was `http://127.0.0.1:5000/`.
 
 
-**PS:** Could Not Deploy on Heroku as model size too large to upload on GitHub.
+**PS:** Could Not Deploy on Heroku as model size too large to upload on GitHub.      
 **PPS:** Will write about my solution after the examination. Keep `watching` the repo for updates.
