@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction using ML | Avi Kalsiwal</title>
+    <!-- Siimple css3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.1/dist/siimple.min.css">
+</head>
+<body>
+    <div class="siimple-content siimple-content--large"> <!-- Main container starts -->
+        <div class="siimple--clearfix"> <!-- Navbar -->
+            <div class="siimple--float-left">
+                <a href="#" class="siimple-navbar-title siimple--color-dark">Flight Price Prediction using ML</a>
+            </div>
+            <div class="siimple--float-right">
+                <a href="https://github.com/AviKasliwal/FlightPricePrediction" target="_new" class="siimple-btn siimple-btn--light">Edit on Github</a> <!-- TO:DO  Add links-->
+                <a href="https://avikasliwal.github.io/Portfolio/" target="_new" class="siimple-btn siimple-btn--light">My e-Portfolio</a>
+            </div>        
+        </div> <!-- Navbar end -->
+
+        <div class="siimple-rule"></div>
+        
+        <div class="siimple-jumbotron siimple-jumbotron--dark siimple--px-5 siimple--mb-4 siimple--rounded"> <!-- Jumbotron Starts -->
+            <div class="siimple-jumbotron-title">WebApp to predict flight prices.</div>
+            <div class="siimple-jumbotron-detail">
+                This is a web application that I built using Flask to predict the fare of a flight ticket with upto an accuracy of 93%.
+            </div>
+            <div class="siimple--mt-3">
+                <a href="https://github.com/AviKasliwal/FlightPricePrediction"  target="_new" class="siimple-btn siimple--bg-white siimple--color-dark">
+                    GitHub <strong>repository</strong>
+                </a>
+            </div>
+        </div> <!-- Jumbotron ends -->
+
+
+        <div class="siimple-grid blog-content"> <!-- Main Body -->
+            <div class="siimple-grid-row">
+                <div class="siimple-grid-col siimple-grid-col--3"> <!-- Abt me -->
+                    <div class="siimple--pb-4">
+                        <div class="siimple-h4 siimple--mb-2">About me</div>
+                        <div class="siimple-paragraph siimple--text-justify siimple--mb-0">
+                            Myself Avi Kasliwal, Pre-final year ECE student, LNMIIT, Jaipur.
+                            I like making cool and problem solving projects in ML, DS, web-dev.
+                            Looking for summer internship opportunities for Summer,2020. 
+                        </div>
+                        <p>
+                            <a href="https://www.linkedin.com/in/avi-kasliwal/" target="_new" class="siimple-btn siimple--bg-white siimple--color-dark">
+                                Linkedin
+                            </a>
+                            <a href="https://github.com/AviKasliwal" target="_new" class="siimple-btn siimple--bg-white siimple--color-dark">
+                                Github
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="siimple-grid-col siimple-grid-col--9"> <!-- App -->
+                    <div class="siimple-h2">Tools & Technologies Used</div>
+                    <div class="siimple-grid">
+                        <div class="siimple-grid-row">
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">Python</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">Flask</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">HTML</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">CSS</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">XGBoost</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">Pandas</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">Numpy</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">Siimple CSS3</div>
+                                </div>
+                            </div>
+
+                            <div class="siimple-grid-col siimple-grid-col--4 siimple-card" style="max-width:300px;">
+                                <div class="siimple-card-body">
+                                    <div class="siimple-card-title">Heroku</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="siimple-h2">Hackathon Problem Statement</div> <!-- Problem stment -->
+                    <div class="siimple-paragraph siimple--text-justify siimple--mb-0">
+                        Flight ticket prices can be something hard to guess, today we might see a price, check out the price of the same flight tomorrow, it will be a different story. We might have often heard travellers saying that flight ticket prices are so unpredictable. Huh! Here we take on the challenge! As data scientists, we are gonna prove that given the right data anything can be predicted. Here you will be provided with prices of flight tickets for various airlines between the months of March and June of 2019 and between various cities. 
+                    </div>  
+
+                    <div class="siimple-rule"></div>
+
+                    <div class="siimple-h2">The Dataset</div> <!-- dataset -->
+                    <div class="siimple-table siimple-table--hover">
+                        <div class="siimple-table-header">
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Feature</div>
+                                <div class="siimple-table-cell">Description</div>
+                                <div class="siimple-table-cell">Dtype</div>
+                            </div>
+                        </div>
+                        <div class="siimple-table-body">
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Airline</div>
+                                <div class="siimple-table-cell">The name of the airline</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Date_of_Journey</div>
+                                <div class="siimple-table-cell">The date of the journey</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Source</div>
+                                <div class="siimple-table-cell">The source from which the service begins.</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Destination</div>
+                                <div class="siimple-table-cell">The date of the journey</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Route</div>
+                                <div class="siimple-table-cell">The date of the journey</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Dep_Time</div>
+                                <div class="siimple-table-cell">The route taken by the flight to reach the destination.</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Arrival_Time</div>
+                                <div class="siimple-table-cell">Time of arrival at the destination.</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Duration</div>
+                                <div class="siimple-table-cell">Total duration of the flight.</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Total_Stops</div>
+                                <div class="siimple-table-cell">Total stops between the source and destination.</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell">Additional_Info</div>
+                                <div class="siimple-table-cell">Additional information about the flight</div>
+                                <div class="siimple-table-cell">String</div>
+                            </div>
+                            <div class="siimple-table-row">
+                                <div class="siimple-table-cell"><b>Price</b></div>
+                                <div class="siimple-table-cell">The price of the ticket</div>
+                                <div class="siimple-table-cell">Float</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="siimple-rule"></div>
+
+                    <div class="siimple-grid-row">
+                        <div class="siimple-grid-col siimple-grid-col--12">
+                            <div class="siimple-jumbotron siimple-jumbotron--grey siimple--px-5 siimple--mb-4 siimple--rounded"> <!-- Application Starts -->
+                                <div class="siimple-jumbotron-title siimple-h4 siimple--mb-4">$ Predictor : </div>
+                                <hr class="siimple--mb-5"/>
+                                <!-- Form -->
+                                <form method = "POST" action = "/">
+                                    <div class="siimple-field">
+                                        <div class="siimple-field-label">First name</div>
+                                        <input type="text" name = "fName"  class="siimple-input siimple-input--fluid" placeholder="Avi">
+                                    </div>
+                                    <div class="siimple-field">
+                                        <div class="siimple-field-label">Last name</div>
+                                        <input type="text" name = "lName" class="siimple-input siimple-input--fluid" placeholder="Kasliwal">
+                                    </div>
+                                    <hr class="siimple--mb-5"/>
+                                    <div class="siimple-grid-row">
+                                        <div class="siimple-grid-col siimple-grid-col--6 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Source</div>
+                                                <select class="siimple-select siimple-select--fluid" name = "source">
+                                                    <option>Bangalore</option>
+                                                    <option>Delhi</option>
+                                                    <option>Chennai</option>
+                                                    <option>Kolkata</option>
+                                                    <option>Mumbai</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="siimple-grid-col siimple-grid-col--6 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Destination</div>
+                                                <select class="siimple-select siimple-select--fluid" name = "destination">
+                                                    <option>Delhi</option>
+                                                    <option>Bangalore</option>
+                                                    <option>Cochin</option>
+                                                    <option>Kolkata</option>
+                                                    <option>Hyderabad</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="siimple-grid-row">
+                                        <div class="siimple-grid-col siimple-grid-col--4 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Date of Journey</div>
+                                                <input type="date" class="siimple-input siimple-input--fluid" name = "doj" required>
+                                                <div class="siimple-field-helper">March - June, 2019 Only pls</div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="siimple-grid-col siimple-grid-col--4 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Departure Time</div>
+                                                <input type="time" class="siimple-input siimple-input--fluid" name = "dTime" required>
+                                                <div class="siimple-field-helper">hh : mm (24Hrs.)</div>
+                                            </div>
+                                            
+                                        </div>
+    
+                                        <div class="siimple-grid-col siimple-grid-col--4 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Duration of Flight</div>
+                                                <input type="time" class="siimple-input siimple-input--fluid" name = "duration" required>
+                                                <div class="siimple-field-helper">hh : mm</div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="siimple-grid-row">
+                                        <div class="siimple-grid-col siimple-grid-col--8 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Carrier</div>
+                                                <select class="siimple-select siimple-select--fluid" name = "carrier">
+                                                    <option>Jet Airways</option>
+                                                    <option>Vistara</option>
+                                                    <option>Indigo</option>
+                                                    <option>SpiceJet</option>
+                                                    <option>GoAir</option>
+                                                    <option>Air Asia</option>
+                                                    <option>Air India</option>
+                                                    <option>Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+    
+    
+                                        <div class="siimple-grid-col siimple-grid-col--4 siimple--py-0">
+                                            <div class="siimple-field">
+                                                <div class="siimple-field-label">Number of Stops</div>
+                                                <select class="siimple-select siimple-select--fluid" name = "nStops">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="siimple-btn siimple-btn--green siimple-btn--fluid siimple--text-bold" type = "submit">
+                                        Get Prediction
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Main Body -->
+
+    </div> <!-- Main container ends -->
+</body>
+</html>

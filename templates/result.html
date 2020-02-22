@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.1/dist/siimple.min.css">
+</head>
+<body>
+    <div class="siimple-content siimple-content--large"> <!-- Main container starts -->
+        <div class="siimple--clearfix"> <!-- Navbar -->
+            <div class="siimple--float-left">
+                <a href="#" class="siimple-navbar-title siimple--color-dark">Flight Price Prediction using ML</a>
+            </div>
+            <div class="siimple--float-right">
+                <a href="#" class="siimple-btn siimple-btn--light">Github</a> <!-- TO:DO  Add links-->
+                <a href="#" class="siimple-btn siimple-btn--light">Portfolio</a>
+            </div>        
+        </div> <!-- Navbar end -->
+
+        <div class="siimple-rule"></div>
+        
+        <div class="siimple-jumbotron siimple-jumbotron--red siimple--px-5 siimple--mb-4 siimple--rounded"> <!-- Jumbotron Starts -->
+            <div class="siimple-jumbotron-title">Hi {{ fName }} : </div>
+            <div class="siimple-jumbotron-detail">
+                <h3> Predicted fare for your flight is : Rs. {{ prediction }} (confidence = 93%) </h3>
+            </div>
+            <div class="siimple--mt-3">
+                <a href="#" class="siimple-btn siimple--bg-white siimple--color-dark">
+                    <strong>Go Back</strong>
+                </a>
+            </div>
+        </div> <!-- Jumbotron ends -->
+    </div>
+</body>
+</html>
